@@ -1,0 +1,6 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+#Clickme{
+	-fx-background-color:rgba(244,244,244,.80)
+	;
+    -fx-text-fill: blue;
+}

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.effect.SepiaTone?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="475.0" prefWidth="397.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Handler">
+   <children>
+      <ImageView fitHeight="607.0" fitWidth="581.0" layoutX="-31.0" layoutY="-53.0" pickOnBounds="true" AnchorPane.bottomAnchor="-68.0" AnchorPane.leftAnchor="-97.0" AnchorPane.rightAnchor="-83.0" AnchorPane.topAnchor="-63.0">
+         <image>
+            <Image url="@../images/Calculator_clipped_rev_1%20.jpg" />
+         </image>
+         <effect>
+            <SepiaTone level="0.19" />
+         </effect>
+      </ImageView>
+      <JFXButton layoutX="25.0" layoutY="138.0" onAction="#number" prefHeight="57.0" prefWidth="80.0" text="7">
+         <font>
+            <Font name="System Bold Italic" size="1.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="115.0" layoutY="140.0" onAction="#number" prefHeight="57.0" prefWidth="80.0" text="8">
+         <font>
+            <Font size="1.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="206.0" layoutY="139.0" onAction="#number" prefHeight="57.0" prefWidth="79.0" text="9" textFill="#030202">
+         <font>
+            <Font name="System Italic" size="1.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="25.0" layoutY="219.0" onAction="#number" prefHeight="57.0" prefWidth="79.0" text="4">
+         <font>
+            <Font name="System Italic" size="1.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="115.0" layoutY="219.0" onAction="#number" prefHeight="57.0" prefWidth="79.0" text="5">
+         <font>
+            <Font size="1.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="206.0" layoutY="219.0" onAction="#number" prefHeight="57.0" prefWidth="79.0" text="6">
+         <font>
+            <Font size="1.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="24.0" layoutY="301.0" onAction="#number" prefHeight="57.0" prefWidth="80.0" text="1">
+         <font>
+            <Font size="1.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="115.0" layoutY="299.0" onAction="#number" prefHeight="57.0" prefWidth="80.0" text="2">
+         <font>
+            <Font size="1.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="207.0" layoutY="301.0" onAction="#number" prefHeight="60.0" prefWidth="78.0" text="3">
+         <font>
+            <Font size="1.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="24.0" layoutY="380.0" onAction="#number" prefHeight="57.0" prefWidth="80.0" text="0">
+         <font>
+            <Font size="1.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="111.0" layoutY="377.0" onAction="#operator" prefHeight="62.0" prefWidth="83.0" text="CL">
+         <font>
+            <Font name="Cambria Bold" size="26.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="205.0" layoutY="379.0" onAction="#operator" prefHeight="57.0" prefWidth="80.0" text="+" />
+      <JFXButton layoutX="297.0" layoutY="379.0" onAction="#equal" prefHeight="57.0" prefWidth="78.0" text="=" />
+      <JFXButton layoutX="297.0" layoutY="300.0" onAction="#operator" prefHeight="57.0" prefWidth="78.0" text="-" />
+      <JFXButton layoutX="298.0" layoutY="220.0" onAction="#operator" prefHeight="57.0" prefWidth="78.0" text="*" />
+      <JFXButton layoutX="295.0" layoutY="140.0" onAction="#operator" prefHeight="57.0" prefWidth="78.0" text="/">
+         <font>
+            <Font size="1.0" />
+         </font>
+      </JFXButton>
+      <JFXTextField fx:id="result" alignment="CENTER_RIGHT" editable="false" layoutX="26.0" layoutY="29.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="72.0" prefWidth="347.0">
+         <effect>
+            <SepiaTone />
+         </effect>
+         <font>
+            <Font name="System Bold" size="41.0" />
+         </font>
+      </JFXTextField>
+      <JFXButton layoutX="364.0" layoutY="2.0" onAction="#cross" prefHeight="25.0" prefWidth="27.0" text="x" textFill="#fffbfb" />
+   </children>
+</AnchorPane>
