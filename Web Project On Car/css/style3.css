@@ -1,0 +1,20 @@
+body{
+	margin:0;
+	padding:0;
+background:url(../images/co.jpg);
+background-size: cover;
+}
+
+a{
+text-decoration:none;
+color: white;
+padding:20px;
+font-family:Helvetica-Bold;
+}.id a:hover{
+background-color:rgba(240,240,240,0.1);
+padding:35px;
+color:silver;
+}
+h1{
+	color:white;
+}
